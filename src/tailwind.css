@@ -1,0 +1,21 @@
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.theme-light {
+    --bg-background-primary: #F6F6F6; /* Light Gray */
+    --bg-background-secondary: #E5E5E5; /* Slightly Lighter Gray */
+    --bg-background-tertiary: #E0E0E0; /* Even Lighter Gray */
+    --text-copy-primary: #333333; /* Dark Gray */
+    --text-copy-secondary: #555555; /* Slightly Darker Gray */
+}
+.theme-dark {
+    --bg-background-primary: #121212; /* Dark Charcoal */
+    --bg-background-secondary: #0D0D0D; /* Slightly Darker Charcoal */
+    --bg-background-tertiary: #1A1A1A; /* Even Darker Charcoal */
+    --text-copy-primary: #C1C1C1; /* Light Gray */
+    --text-copy-secondary: #757575; /* Slightly Lighter Gray */
+    --text-copy-white: #FFFFFF; /* White */
+}
